@@ -35,7 +35,7 @@
 @import url("https://akisblack.tech/CSS-Snippets/src/modules/coloured-window-buttons.css");
 
 /* Compact Status Menu - Makes the status picker compact*/
-@import url("https://akisblack.tech/CSS-Snippets/src/modules/compact-status-menu.css");
+/*@import url("https://akisblack.tech/CSS-Snippets/src/modules/compact-status-menu.css");
 
 /* Display None - Removes stuff that is useless to me.*/
 @import url("https://akisblack.tech/CSS-Snippets/src/modules/display-none.css");
@@ -84,3 +84,50 @@
 
 /* Yellow Permission Ticks - Makes the / permission yellow.*/
 @import url("https://akisblack.tech/CSS-Snippets/src/modules/yellow-permission-ticks.css");
+
+/* Compact Status Menu */
+.status-1fhblQ, .description-2L932D {
+	display: none;
+}
+
+#status-picker .separator-2I32lJ {
+	display: none;
+}
+
+.mask-1qbNWk.icon-1IxfJ2 {
+	--status-icon-size: 75%;
+	height: var(--status-icon-size); 
+	width: var(--status-icon-size);
+	margin-left: 33%;
+}
+
+.animatorTop-2Y7x2r.scale-3iLZhb.didRender-33z1u8 > .menu-3sdvDG.styleFixed-sX-yHV > .scroller-3BxosC.thin-1ybCId.scrollerBase-289Jih {
+	display: grid;
+	align-items: center;
+	grid-template-columns: auto auto auto auto;
+	visibility: visible;
+}
+
+.item-1tOPte.colorDefault-2K3EoJ:nth-of-type(7) {
+	grid-column: 1/5;
+}
+
+.animatorTop-2Y7x2r.scale-3iLZhb.didRender-33z1u8 {
+	transition: opacity 0.15s linear 0s;
+}
+
+.customText-tY5LJn {
+	font-size: 15px;
+}
+
+/*Cleaner status but with emoji on the same line*/
+.item-1tOPte.colorDefault-2K3EoJ:nth-of-type(7) {
+	grid-column:5/5;
+	/*display:none;*/
+}
+
+.customEmoji-2_2FwB {
+	margin-left: 8px;
+	width: 20px;
+	height: 20px;
+}
