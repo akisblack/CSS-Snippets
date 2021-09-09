@@ -6,5 +6,5 @@ button[aria-label="Send a gift"], /* Hide Nitro gift button */
 button[aria-label="Open GIF picker"], /* Hide GIF picker button */
 button[aria-label="Open sticker picker"], /* Hide sticker picker button */
 .iconWrapper-2OrFZ1[aria-label="Hide Member List"], [aria-label="Show Member List"] /*Remove member list button*/ { 
-   display:none;
+	display:none;
 }

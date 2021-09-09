@@ -1,3 +1,30 @@
+/*
+*   _____  _____ _____    _____       _                  _       
+*   / ____|/ ____/ ____|  / ____|     (_)                | |      
+*  | |    | (___| (___   | (___  _ __  _ _ __  _ __   ___| |_ ___ 
+*  | |     \___ \\___ \   \___ \| '_ \| | '_ \| '_ \ / _ | __/ __|
+*  | |____ ____) ____) |  ____) | | | | | |_) | |_) |  __| |_\__ \
+*   \_____|_____|_____/  |_____/|_| |_|_| .__/| .__/ \___|\__|___/
+*									   | |   | |                 
+*									   |_|   |_|                 
+*  Akis' Discord CSS snippet collection. (These snippets are NOT mine, they are from the Powercord/Black Box/BetterDiscord discord servers!)
+*/
+
+
+
+/*
+* _____                            _       
+*|_   _|                          | |      
+*  | |  _ __ ___  _ __   ___  _ __| |_ ___ 
+*  | | | '_ ` _ \| '_ \ / _ \| '__| __/ __|
+* _| |_| | | | | | |_) | (_) | |  | |_\__ \
+*|_____|_| |_| |_| .__/ \___/|_|   \__|___/
+*				| |                       
+*				|_|        
+* Add 1* to the front of an @import and 2* to the end of the import to disable something
+* 1=/*
+* 2=*/
+
 /* Original Case - Makes all capital text on Discord their original case.*/
 @import url("https://akisblack.tech/DiscordAddons/Snippets/Original%20Case/index.css");
 
@@ -17,7 +44,7 @@
 @import url("https://akisblack.tech/CSS-Snippets/src/modules/fix-blurry-icons-powercord.css");
 
 /* macOS Window Buttons - Makes the window buttons look like macOS, but on the right.*/
-@import url("https://akisblack.tech/CSS-Snippets/src/modules/macos-window-buttons.css");
+/*@import url("https://akisblack.tech/CSS-Snippets/src/modules/macos-window-buttons.css");*/
 
 /* Minified Search Box - Makes the search box on the toolbar a normal icon.*/
 @import url("https://akisblack.tech/CSS-Snippets/src/modules/minified-search-box.css");
@@ -25,35 +52,35 @@
 /* No Gaps In Settings - Settings menu with no gaps.*/
 @import url("https://akisblack.tech/CSS-Snippets/src/modules/no-gaps-in-settings.css");
 
-/* Coloured Window Buttons - Makes min/max window buttons coloured on hover.*/
+/* No Preview On Folders - Disables the folder preview in folder icons.*/
 @import url("https://akisblack.tech/CSS-Snippets/src/modules/no-preview-on-folders.css");
 
-/* Coloured Window Buttons - Makes min/max window buttons coloured on hover.*/
+/* Notice Bar On Chat - Makes the notice bars be under the chat toolbar instead of on top of the whole window.*/
 @import url("https://akisblack.tech/CSS-Snippets/src/modules/notf-notice-bar-on-chat.css");
 
-/* Coloured Window Buttons - Makes min/max window buttons coloured on hover.*/
+/* One Emoji In Emote Picker - Only allows one emoji to be displayed in the emoji picker button.*/
 @import url("https://akisblack.tech/CSS-Snippets/src/modules/one-emoji-emote-picker.css");
 
-/* Coloured Window Buttons - Makes min/max window buttons coloured on hover.*/
+/* Plugin Settings Header - Adds a Plugin Settings Header before the plugin settings tabs on Powercord.*/
 @import url("https://akisblack.tech/CSS-Snippets/src/modules/plugin-settings-header.css");
 
-/* Compact Status Menu - Makes the status picker compact*/
+/* Remove Rebrand - Removes the things that I don't like in the rebrand.*/
 @import url("https://akisblack.tech/CSS-Snippets/src/modules/remove-rebrand.css");
 
-/* Compact Status Menu - Makes the status picker compact*/
+/* Replace Green Accent - Replaces the green accent with whatever colour you want.*/
 @import url("https://akisblack.tech/CSS-Snippets/src/modules/replace-green-accent.css");
 
-/* Compact Status Menu - Makes the status picker compact*/
+/* Small Icons In Home - Removes the text in the home icons.*/
 @import url("https://akisblack.tech/CSS-Snippets/src/modules/small-icons-in-home.css");
 
-/* Compact Status Menu - Makes the status picker compact*/
+/* Transparent Folder Background - Removes the background behimd servers in a folder.*/
 @import url("https://akisblack.tech/CSS-Snippets/src/modules/transparent-folder-bg.css");
 
-/* Compact Status Menu - Makes the status picker compact*/
+/* Uncoloured Emote Picker - Removes the colour when hovering over the emote picker button.*/
 @import url("https://akisblack.tech/CSS-Snippets/src/modules/uncoloured-emote-picker.css");
 
-/* Compact Status Menu - Makes the status picker compact*/
+/* Window Buttons In Toolbar - Moves the window buttons from the title bar to the chat toolbar.*/
 @import url("https://akisblack.tech/CSS-Snippets/src/modules/window-buttons-in-toolbar.css");
 
-/* Compact Status Menu - Makes the status picker compact*/
+/* Yellow Permission Ticks - Makes the / permission yellow.*/
 @import url("https://akisblack.tech/CSS-Snippets/src/modules/yellow-permission-ticks.css");

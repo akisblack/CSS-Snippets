@@ -17,10 +17,12 @@
 	color: white;
 	background: var(--alt-color);
 }
+
 #app-mount .mention:hover {
 	color: white;
 	background: var(--alt-color);
 }
+
 #app-mount .mentioned-xhSam7 .mention:hover {
 	color: var(--alt-color);
 }
