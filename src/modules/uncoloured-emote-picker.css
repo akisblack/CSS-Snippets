@@ -1,0 +1,5 @@
+/*not colored emoji picker*/
+
+.sprite-2iCowe, .sprite-2iCowe:hover, .sprite-2iCowe:focus, .sprite-2iCowe:active { 
+	filter: grayscale(1) !important;
+  }

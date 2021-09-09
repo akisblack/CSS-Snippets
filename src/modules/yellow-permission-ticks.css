@@ -1,0 +1,22 @@
+/*Yellow Permissions Tickk*/
+
+/* Permissons (Red) */
+.deny-3nAuT6 {color: #F04747;}
+
+.deny-3nAuT6:hover {background: #F04747 !important; color: white;}
+.deny-3nAuT6.selected-2YhbGh {background: #F04747 !important;}
+.deny-3nAuT6.selected-2YhbGh:hover {background: #FF6660 !important;}
+
+/* Permissons (Yellow) */
+.passthrough-1c2ewQ {color: #FAA61A;}
+
+.passthrough-1c2ewQ:hover {background: #FAA61A !important; color: white;}
+.passthrough-1c2ewQ.selected-2YhbGh {background: #FAA61A !important;}
+.passthrough-1c2ewQ.selected-2YhbGh:hover {background: #FFC23D !important;}
+
+/* Permissons (Green) */
+.allow-1PzSY3 {color: #43B581;}
+
+.allow-1PzSY3:hover {background: #43B581 !important; color: white;}
+.allow-1PzSY3.selected-2YhbGh {background: #43B581 !important;}
+.allow-1PzSY3.selected-2YhbGh:hover {background: #61D09A !important;}
