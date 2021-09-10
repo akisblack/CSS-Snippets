@@ -67,13 +67,6 @@
 /* Remove Rebrand - Removes the things that I don't like in the rebrand.*/
 @import url("https://akisblack.tech/CSS-Snippets/src/modules/remove-rebrand.css");
 
-/* Green Replacer - Replaces the green accent with whatever colour you want.*/
-:root {
-	--accent-secondary: #1b91ff;
-}
-
-@import url("https://akisblack.tech/DiscordAddons/Snippets/Green%20Replacer/index.css");
-
 /* Small Icons In Home - Removes the text in the home icons.*/
 @import url("https://akisblack.tech/CSS-Snippets/src/modules/small-icons-in-home.css");
 
@@ -88,3 +81,10 @@
 
 /* Yellow Permission Ticks - Makes the / permission yellow.*/
 @import url("https://akisblack.tech/CSS-Snippets/src/modules/yellow-permission-ticks.css");
+
+/* Green Replacer - Replaces the green accent with whatever colour you want.*/
+@import url("https://akisblack.tech/DiscordAddons/Snippets/Green%20Replacer/index.css");
+
+:root {
+	--accent-secondary: #1b91ff;
+}
