@@ -24,6 +24,12 @@
 * Add /* to the front of an @import to disable something
 */
 
+/* User Area Thing - Makes the usea area on the bottom left a little more tidy.*/
+@import url("https://akisblack.tech/CSS-Snippets/src/modules/user-area-thing.css");
+
+/* Mobile Home Icon - Makes the home icon look like the mobile one.*/
+@import url("https://akisblack.tech/CSS-Snippets/src/modules/mobile-home-icon.css");
+
 /* Original Case - Makes category and role names their original case.*/
 @import url("https://akisblack.tech/DiscordAddons/Snippets/Original%20Case/index.css");
 
