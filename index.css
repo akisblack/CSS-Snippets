@@ -5,8 +5,8 @@
 *  | |     \___ \\___ \   \___ \| '_ \| | '_ \| '_ \ / _ | __/ __|
 *  | |____ ____) ____) |  ____) | | | | | |_) | |_) |  __| |_\__ \
 *   \_____|_____|_____/  |_____/|_| |_|_| .__/| .__/ \___|\__|___/
-*									   | |   | |                 
-*									   |_|   |_|                 
+*									    | |   | |                 
+*									    |_|   |_|                 
 *  Akis' Discord CSS snippet collection. (These snippets are NOT mine, they are from the Powercord/Black Box/BetterDiscord discord servers!)
 */
 
@@ -19,11 +19,10 @@
 *  | | | '_ ` _ \| '_ \ / _ \| '__| __/ __|
 * _| |_| | | | | | |_) | (_) | |  | |_\__ \
 *|_____|_| |_| |_| .__/ \___/|_|   \__|___/
-*				| |                       
-*				|_|        
-* Add 1* to the front of an @import and 2* to the end of the import to disable something
-* 1=/*
-* 2=*/
+*				 | |                       
+*				 |_|        
+* Add /* to the front of an @import to disable something
+*/
 
 /* Original Case - Makes category and role names their original case.*/
 @import url("https://akisblack.tech/DiscordAddons/Snippets/Original%20Case/index.css");
