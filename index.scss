@@ -1,0 +1,85 @@
+/*             
+*  Akis' Discord CSS snippet collection. (These snippets are NOT mine, they are from the Powercord/Black Box/BetterDiscord discord servers!)
+*/
+
+/*
+* _____                            _       
+*|_   _|                          | |      
+*  | |  _ __ ___  _ __   ___  _ __| |_ ___ 
+*  | | | '_ ` _ \| '_ \ / _ \| '__| __/ __|
+* _| |_| | | | | | |_) | (_) | |  | |_\__ \
+*|_____|_| |_| |_| .__/ \___/|_|   \__|___/
+*				 | |                       
+*				 |_|        
+* Add /* to the front of an @import to disable something
+*/
+
+// User Area Thing - Makes the usea area on the bottom left a little more tidy.
+//@use "src/modules/user-area-thing.css";
+
+// Mobile Home Icon - Makes the home icon look like the mobile one.
+@use "/src/modules/mobile-home-icon.css";
+
+// Coloured Window Buttons - Makes min/max window buttons coloured on hover.
+@use "/src/modules/coloured-window-buttons.css";
+
+// Compact Status Menu - Makes the status picker compact
+@use "/src/modules/compact-status-menu.css";
+
+// Display None - Removes stuff that is useless to me.
+@use "/src/modules/display-none.css";
+
+// Fix Blurry Icons Powercord - Fixes the blurry connection icons when using Powercord on Discord Canary.
+@use "/src/modules/fix-blurry-icons-powercord.css";
+
+// macOS Window Buttons - Makes the window buttons look like macOS, but on the right.
+//@use "/src/modules/macos-window-buttons.css";
+
+// Minified Search Box - Makes the search box on the toolbar a normal icon.
+@use "/src/modules/minified-search-box.css";
+
+// Mobile Jump To Present Bar - Makes the jump to present bar like the mobile one.
+@use "/src/modules/mobile-jump-to-present-bar.css";
+
+// No Gaps In Settings - Settings menu with no gaps.
+@use "/src/modules/no-gaps-in-settings.css";
+
+// No Preview On Folders - Disables the folder preview in folder icons.
+@use "/src/modules/no-preview-on-folders.css";
+
+// Notice Bar On Chat - Makes the notice bars be under the chat toolbar instead of on top of the whole window.
+@use "/src/modules/notf-notice-bar-on-chat.css";
+
+// One Emoji In Emote Picker - Only allows one emoji to be displayed in the emoji picker button.
+@use "/src/modules/one-emoji-emote-picker.css";
+
+// Plugin Settings Header - Adds a Plugin Settings Header before the plugin settings tabs on Powercord.
+@use "/src/modules/plugin-settings-header.css";
+
+// Remove Rebrand - Removes the things that I don't like in the rebrand.
+@use "/src/modules/remove-rebrand.css";
+
+// Small Icons In Home - Removes the text in the home icons.
+@use "/src/modules/small-icons-in-home.css";
+
+// Transparent Folder Background - Removes the background behimd servers in a folder.
+@use "/src/modules/transparent-folder-bg.css";
+
+// Uncoloured Emote Picker - Removes the colour when hovering over the emote picker button.
+@use "/src/modules/uncoloured-emote-picker.css";
+
+// Window Buttons In Toolbar - Moves the window buttons from the title bar to the chat toolbar.
+@use "/src/modules/window-buttons-in-toolbar.css";
+
+// Yellow Permission Ticks - Makes the / permission yellow.
+@use "/src/modules/yellow-permission-ticks.css";
+
+// Original Case - Makes category and role names their original case.
+@import url("https://akisblack.tech/DiscordAddons/Snippets/Original%20Case/index.css");
+
+// Green Replacer - Replaces the green accent with whatever colour you want.
+/*@import url("https://akisblack.tech/DiscordAddons/Snippets/Green%20Replacer/index.css");
+
+:root {
+	--accent-secondary: #1b91ff;
+}*/

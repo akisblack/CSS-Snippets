@@ -1,16 +1,6 @@
-/*
-*   _____  _____ _____    _____       _                  _       
-*   / ____|/ ____/ ____|  / ____|     (_)                | |      
-*  | |    | (___| (___   | (___  _ __  _ _ __  _ __   ___| |_ ___ 
-*  | |     \___ \\___ \   \___ \| '_ \| | '_ \| '_ \ / _ | __/ __|
-*  | |____ ____) ____) |  ____) | | | | | |_) | |_) |  __| |_\__ \
-*   \_____|_____|_____/  |_____/|_| |_|_| .__/| .__/ \___|\__|___/
-*									    | |   | |                 
-*									    |_|   |_|                 
+/*             
 *  Akis' Discord CSS snippet collection. (These snippets are NOT mine, they are from the Powercord/Black Box/BetterDiscord discord servers!)
 */
-
-
 
 /*
 * _____                            _       
@@ -29,9 +19,6 @@
 
 /* Mobile Home Icon - Makes the home icon look like the mobile one.*/
 @import url("https://akisblack.tech/CSS-Snippets/src/modules/mobile-home-icon.css");
-
-/* Original Case - Makes category and role names their original case.*/
-@import url("https://akisblack.tech/DiscordAddons/Snippets/Original%20Case/index.css");
 
 /* Coloured Window Buttons - Makes min/max window buttons coloured on hover.*/
 @import url("https://akisblack.tech/CSS-Snippets/src/modules/coloured-window-buttons.css");
@@ -86,6 +73,9 @@
 
 /* Yellow Permission Ticks - Makes the / permission yellow.*/
 @import url("https://akisblack.tech/CSS-Snippets/src/modules/yellow-permission-ticks.css");
+
+/* Original Case - Makes category and role names their original case.*/
+@import url("https://akisblack.tech/DiscordAddons/Snippets/Original%20Case/index.css");
 
 /* Green Replacer - Replaces the green accent with whatever colour you want.*/
 /*@import url("https://akisblack.tech/DiscordAddons/Snippets/Green%20Replacer/index.css");
