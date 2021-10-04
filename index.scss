@@ -48,13 +48,13 @@
 @use "/src/modules/no-preview-on-folders.css";
 
 // Notice Bar On Chat - Makes the notice bars be under the chat toolbar instead of on top of the whole window.
-@use "/src/modules/notf-notice-bar-on-chat.css";
+//@use "/src/modules/notf-notice-bar-on-chat.css";
 
 // One Emoji In Emote Picker - Only allows one emoji to be displayed in the emoji picker button.
 @use "/src/modules/one-emoji-emote-picker.css";
 
-// Plugin Settings Header - Adds a Plugin Settings Header before the plugin settings tabs on Powercord.
-@use "/src/modules/plugin-settings-header.css";
+// [Use the Better Settings toggle instead] Plugin Settings Header - Adds a Plugin Settings Header before the plugin settings tabs on Powercord.
+//@use "/src/modules/plugin-settings-header.css";
 
 // Remove Rebrand - Removes the things that I don't like in the rebrand.
 @use "/src/modules/remove-rebrand.css";
@@ -69,7 +69,7 @@
 @use "/src/modules/uncoloured-emote-picker.css";
 
 // Window Buttons In Toolbar - Moves the window buttons from the title bar to the chat toolbar.
-@use "/src/modules/window-buttons-in-toolbar.css";
+//@use "/src/modules/window-buttons-in-toolbar.css";
 
 // Yellow Permission Ticks - Makes the / permission yellow.
 @use "/src/modules/yellow-permission-ticks.css";
