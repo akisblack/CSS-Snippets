@@ -77,6 +77,9 @@
 // No 6 line limit on about me section - Removes the 6 line limit on about me's.
 @use "/src/modules/no-6-line-limit-about-me.css";
 
+// Reorder theme toggler - Reorder's theme toggler to be below the Themes section in Powercord settings.
+@use "/src/modules/reorder-theme-toggler.css";
+
 // Original Case - Makes category and role names their original case.
 @import url("https://akisblack.tech/DiscordAddons/Snippets/Original%20Case/index.css");
 

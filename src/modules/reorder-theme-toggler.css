@@ -1,0 +1,6 @@
+/*Reorder theme toggler*/
+.side-8zPYf6 > div[data-item-id="pc-moduleManager-themes"],
+.side-8zPYf6 > div[data-item-id="pc-moduleManager-themes"] ~ div { order: 3 }
+
+.side-8zPYf6 > div[data-item-id="theme-toggler"] { order: 2 !important; }
+.side-8zPYf6 > div[data-item-id="bdCompat"] { order: 1 !important; }
