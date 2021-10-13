@@ -1,9 +1,6 @@
 /* remove 2021 discord rebrand*/
-.reaction-1hd86g, .reaction-1hd86g:hover {
-	border: none;
-	border-radius: 4px;
-}
 
+/*Nitro tab settings*/
 .icon-Zc-uZZ {
 	display: none;
 }
@@ -13,22 +10,8 @@
 	background-color: var(--background-modifier-selected)!important;
 }
 
-#app-mount .mention {
-	color: white;
-	background: var(--alt-color);
-}
-
-#app-mount .mention:hover {
-	color: white;
-	background: var(--alt-color);
-}
-
-#app-mount .mentioned-xhSam7 .mention:hover {
-	color: var(--alt-color);
-}
-
+/*font*/
 body {
-	/* Revert to old font var */
 	--font-display: var(--font-primary);
 }
 
