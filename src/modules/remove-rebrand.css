@@ -10,6 +10,11 @@
 	background-color: var(--background-modifier-selected)!important;
 }
 
+/*reactions*/
+.reaction-1hd86g {
+	border: none;
+}
+
 /*font*/
 body {
 	--font-display: var(--font-primary);
