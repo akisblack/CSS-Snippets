@@ -14,57 +14,6 @@
 * Add /* to the front of an @import to disable something
 */
 
-/* User Area Thing - Makes the usea area on the bottom left a little more tidy.*/
-/*@import url("https://akisblack.tech/CSS-Snippets/src/modules/user-area-thing.css");
-
-/* Mobile Home Icon - Makes the home icon look like the mobile one.*/
-@import url("https://akisblack.tech/CSS-Snippets/src/modules/mobile-home-icon.css");
-
-/* Coloured Window Buttons - Makes min/max window buttons coloured on hover.*/
-@import url("https://akisblack.tech/CSS-Snippets/src/modules/coloured-window-buttons.css");
-
-/* Compact Status Menu - Makes the status picker compact.*/
-/*@import url("https://akisblack.tech/CSS-Snippets/src/modules/compact-status-menu.css");
-
-/* Display None - Removes stuff that is useless to me.*/
-@import url("https://akisblack.tech/CSS-Snippets/src/modules/display-none.css");
-
-/* Fix Blurry Icons Powercord - Fixes the blurry connection icons when using Powercord on Discord Canary.*/
-@import url("https://akisblack.tech/CSS-Snippets/src/modules/fix-blurry-icons-powercord.css");
-
-/* macOS Window Buttons - Makes the window buttons look like macOS, but on the right.*/
-/*@import url("https://akisblack.tech/CSS-Snippets/src/modules/macos-window-buttons.css");*/
-
-/* Minified Search Box - Makes the search box on the toolbar a normal icon.*/
-@import url("https://akisblack.tech/CSS-Snippets/src/modules/minified-search-box.css");
-
-/* Mobile Jump To Present Bar - Makes the jump to present bar like the mobile one.*/
-@import url("https://akisblack.tech/CSS-Snippets/src/modules/mobile-jump-to-present-bar.css");
-
-/* No Gaps In Settings - Settings menu with no gaps.*/
-@import url("https://akisblack.tech/CSS-Snippets/src/modules/no-gaps-in-settings.css");
-
-/* No Preview On Folders - Disables the folder preview in folder icons.*/
-@import url("https://akisblack.tech/CSS-Snippets/src/modules/no-preview-on-folders.css");
-
-/* Notice Bar On Chat - Makes the notice bars be under the chat toolbar instead of on top of the whole window.*/
-/*@import url("https://akisblack.tech/CSS-Snippets/src/modules/notf-notice-bar-on-chat.css");
-
-/* One Emoji In Emote Picker - Only allows one emoji to be displayed in the emoji picker button.*/
-@import url("https://akisblack.tech/CSS-Snippets/src/modules/one-emoji-emote-picker.css");
-
-/* [Use the Better Settings toggle instead] Plugin Settings Header - Adds a Plugin Settings Header before the plugin settings tabs on Powercord.*/
-/*@import url("https://akisblack.tech/CSS-Snippets/src/modules/plugin-settings-header.css");
-
-/* Remove Rebrand - Removes the things that I don't like in the rebrand.*/
-@import url("https://akisblack.tech/CSS-Snippets/src/modules/remove-rebrand.css");
-
-/* Small Icons In Home - Removes the text in the home icons.*/
-/*@import url("https://akisblack.tech/CSS-Snippets/src/modules/small-icons-in-home.css");
-
-/* Transparent Folder Background - Removes the background behimd servers in a folder.*/
-/*@import url("https://akisblack.tech/CSS-Snippets/src/modules/transparent-folder-bg.css");
-
 /* Uncoloured Emote Picker - Removes the colour when hovering over the emote picker button.*/
 @import url("https://akisblack.tech/CSS-Snippets/src/modules/uncoloured-emote-picker.css");
 
@@ -82,6 +31,57 @@
 
 /* Original Case - Makes category and role names their original case.*/
 @import url("https://akisblack.tech/DiscordAddons/Snippets/Original%20Case/index.css");
+
+/* Mobile Home Icon - Makes the home icon look like the mobile one.*/
+@import url("https://akisblack.tech/CSS-Snippets/src/modules/mobile-home-icon.css");
+
+/* Coloured Window Buttons - Makes min/max window buttons coloured on hover.*/
+@import url("https://akisblack.tech/CSS-Snippets/src/modules/coloured-window-buttons.css");
+
+/* Display None - Removes stuff that is useless to me.*/
+@import url("https://akisblack.tech/CSS-Snippets/src/modules/display-none.css");
+
+/* Fix Blurry Icons Powercord - Fixes the blurry connection icons when using Powercord on Discord Canary.*/
+@import url("https://akisblack.tech/CSS-Snippets/src/modules/fix-blurry-icons-powercord.css");
+
+/* Minified Search Box - Makes the search box on the toolbar a normal icon.*/
+@import url("https://akisblack.tech/CSS-Snippets/src/modules/minified-search-box.css");
+
+/* Mobile Jump To Present Bar - Makes the jump to present bar like the mobile one.*/
+@import url("https://akisblack.tech/CSS-Snippets/src/modules/mobile-jump-to-present-bar.css");
+
+/* No Gaps In Settings - Settings menu with no gaps.*/
+@import url("https://akisblack.tech/CSS-Snippets/src/modules/no-gaps-in-settings.css");
+
+/* No Preview On Folders - Disables the folder preview in folder icons.*/
+@import url("https://akisblack.tech/CSS-Snippets/src/modules/no-preview-on-folders.css");
+
+/* One Emoji In Emote Picker - Only allows one emoji to be displayed in the emoji picker button.*/
+@import url("https://akisblack.tech/CSS-Snippets/src/modules/one-emoji-emote-picker.css");
+
+/* Remove Rebrand - Removes the things that I don't like in the rebrand.*/
+@import url("https://akisblack.tech/CSS-Snippets/src/modules/remove-rebrand.css");
+
+/* Compact Status Menu - Makes the status picker compact.*/
+/*@import url("https://akisblack.tech/CSS-Snippets/src/modules/compact-status-menu.css");
+
+/* macOS Window Buttons - Makes the window buttons look like macOS, but on the right.*/
+/*@import url("https://akisblack.tech/CSS-Snippets/src/modules/macos-window-buttons.css");*/
+
+/* Notice Bar On Chat - Makes the notice bars be under the chat toolbar instead of on top of the whole window.*/
+/*@import url("https://akisblack.tech/CSS-Snippets/src/modules/notf-notice-bar-on-chat.css");
+
+/* [Use the Better Settings toggle instead] Plugin Settings Header - Adds a Plugin Settings Header before the plugin settings tabs on Powercord.*/
+/*@import url("https://akisblack.tech/CSS-Snippets/src/modules/plugin-settings-header.css");
+
+/* User Area Thing - Makes the usea area on the bottom left a little more tidy.*/
+/*@import url("https://akisblack.tech/CSS-Snippets/src/modules/user-area-thing.css");
+
+/* Small Icons In Home - Removes the text in the home icons.*/
+/*@import url("https://akisblack.tech/CSS-Snippets/src/modules/small-icons-in-home.css");
+
+/* Transparent Folder Background - Removes the background behimd servers in a folder.*/
+/*@import url("https://akisblack.tech/CSS-Snippets/src/modules/transparent-folder-bg.css");
 
 /* Rounded square avatars and guilds - Makes avatars and servers rounded squares.*/
 /*@import url("https://raw.githubusercontent.com/hyblocker/pixelcord/v4/modules/appearance/icons/shapes/rounded.css");
