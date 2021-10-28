@@ -14,6 +14,9 @@
 * Add /* to the front of an @import to disable something
 */
 
+/* Fix Powercord setting titles - Makes the Powercord setting titles match Discord's ones.*/
+@import url("https://akisblack.tech/CSS-Snippets/src/modules/fix-powecord-setting-titles.css");
+
 /* Uncoloured Emote Picker - Removes the colour when hovering over the emote picker button.*/
 @import url("https://akisblack.tech/CSS-Snippets/src/modules/uncoloured-emote-picker.css");
 

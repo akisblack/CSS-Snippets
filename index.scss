@@ -14,6 +14,9 @@
 * Add /* to the front of an @import to disable something
 */
 
+// Fix Powercord setting titles - Makes the Powercord setting titles match Discord's ones.
+@use "/src/modules/fix-powecord-setting-titles.css";
+
 // Coloured Window Buttons - Makes min/max window buttons coloured on hover.
 @use "/src/modules/coloured-window-buttons.css";
 
