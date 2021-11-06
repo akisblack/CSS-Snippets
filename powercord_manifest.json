@@ -3,6 +3,6 @@
     "description": "CSS Snippets that I use",
     "version": "1.0.0",
     "author": "akisblack",
-    "theme": "css-snippets.theme.css",
+    "theme": "index.css",
     "license": "MIT"
 }
