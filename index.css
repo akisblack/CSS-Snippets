@@ -5,69 +5,6 @@
 /* Original Case - Makes category and role names their original case.*/
 @import url("https://rawcdn.githack.com/akisblack/DiscordAddons/e9ef88f3d144d6c72e4a601eb81310afaad5d4db/Snippets/Original%20Case/index.css");
 
-/* Rounded square avatars and guilds - Makes avatars and servers rounded squares.*/
-/*@import url("https://raw.githubusercontent.com/hyblocker/pixelcord/v4/modules/appearance/icons/shapes/rounded.css");
-
-:root {
-	--guild-shape-normal:	url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 48 48' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='black' d='M5 0C2.23 0 0 2.23 0 5V43C0 45.77 2.23 48 5 48H43C45.77 48 48 45.77 48 43V5C48 2.23 45.77 0 43 0Z'/%3E%3C/svg%3E");
-	--guild-shape-hover:	url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 48 48' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='black' d='M5 0C2.23 0 0 2.23 0 5V43C0 45.77 2.23 48 5 48H43C45.77 48 48 45.77 48 43V5C48 2.23 45.77 0 43 0Z'/%3E%3C/svg%3E");
-	--avatar-shape:	url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 48 48' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='black' d='M5 0C2.23 0 0 2.23 0 5V43C0 45.77 2.23 48 5 48H43C45.77 48 48 45.77 48 43V5C48 2.23 45.77 0 43 0Z'/%3E%3C/svg%3E");
-}*/
-
-/* Green Replacer - Replaces the green accent with whatever colour you want.*/
-/*@import url("https://rawcdn.githack.com/akisblack/DiscordAddons/e9ef88f3d144d6c72e4a601eb81310afaad5d4db/Snippets/Green%20Replacer/index.css");
-
-:root {
-	--accent-secondary: #1b91ff;
-}*/
-
-/* Fix Powercord setting titles - Makes the Powercord setting titles match Discord's ones.*/
-.contentColumnDefault-1VQkGM > div > :nth-child(1) {
-	font-size: 20px;
-    line-height: 24px;
-	text-transform: none;
-}
-
-/* Uncoloured Emote Picker - Removes the colour when hovering over the emote picker button.*/
-.sprite-2iCowe, .sprite-2iCowe:hover, .sprite-2iCowe:focus, .sprite-2iCowe:active { 
-	filter: grayscale(1) !important;
-}
-
-/* Window Buttons In Toolbar - Moves the window buttons from the title bar to the chat toolbar.*/
-/*.platform-win .typeWindows-1za-n7 {
-	height: 9px;
-	margin-top: 0;
-	position: absolute;
-	top: 1px;
-	left: 0;
-	width: 100%;
-	background: 0 0
-}
-	
-.platform-win .winButtonClose-1HsbF- {
-	border-top-right-radius: var(--TB-tr-roundness)
-}
-
-.platform-win .winButton-iRh8-Z {
-	position: relative;
-	top: calc(var(--TB-position-top, 0px) - 1px);
-	right: var(--TB-position-right, 0);
-	height: var(--TB-height, 48px);
-	width: var(--TB-width, 32px)
-}
-
-.platform-win .container-1r6BKw {
-	padding-right: var(--TB-header-padding, 100px)
-}
-
-.platform-win .wordmarkWindows-1v0lYD {
-	display: none
-}
-
-.platform-win #app-mount.bd-detached-editor .winButton-iRh8-Z {
-	right: 30%
-}
-
 /* Yellow Permission Ticks - Makes the / permission yellow.*/
 .deny-3nAuT6 {color: #F04747;}
 .deny-3nAuT6:hover {background: #F04747 !important; color: white;}
@@ -92,18 +29,6 @@
 .side-8zPYf6 > div[data-item-id="pc-moduleManager-themes"] ~ div { order: 3 }
 .side-8zPYf6 > div[data-item-id="theme-toggler"] { order: 2 !important; }
 .side-8zPYf6 > div[data-item-id="bdCompat"] { order: 1 !important; }
-
-/* Mobile Home Icon - Makes the home icon look like the mobile one.*/
-/*.homeIcon-FuNwkv {
-	color: transparent;
-	-webkit-mask: var(--home-icon);
-	mask: var(--home-icon);
-	background: var(--interactive-normal);
-	width: 60%;
-	height: 60%;
-	margin-top: 2px;
-	--home-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:serif='http://www.serif.com/' width='100%25' height='100%25' viewBox='0 0 48 48' version='1.1' xml:space='preserve' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='ArtBoard1' x='0' y='0' width='48' height='48' style='fill:none;'/%3E%3Cg id='ArtBoard11' serif:id='ArtBoard1'%3E%3Cpath id='home' d='M13.688,43.053l0,-8l-5.867,0c-2.109,0 -3.821,-1.712 -3.821,-3.821l0,-22.464c0,-2.109 1.712,-3.821 3.821,-3.821l32.358,-0c2.109,-0 3.821,1.712 3.821,3.821l-0,22.464c-0,2.109 -1.712,3.821 -3.821,3.821l-18.491,0l-8,8Z'/%3E%3C/g%3E%3C/svg%3E") center no-repeat;
-}
 
 /* Coloured Window Buttons - Makes min/max window buttons coloured on hover.*/
 .titleBar-AC4pGV > *:nth-child(3):hover {
@@ -170,7 +95,7 @@ button[aria-label="Open sticker picker"], /* Hide sticker picker button */
 }
 
 .contentColumnDefault-1VQkGM {
-	margin: 0 auto;
+	margin: auto;
 }
 
 /* Original
@@ -247,52 +172,6 @@ body {
 /* Tweak positioning */
 .wordmarkWindows-1v0lYD g {
 	transform: translateY(3px);
-}
-
-/* Compact Status Menu - Makes the status picker compact.*/
-/*.status-1fhblQ, .description-2L932D {
-	display: none;
-}
-
-#status-picker .separator-2I32lJ {
-	display: none;
-}
-
-.mask-1qbNWk.icon-1IxfJ2 {
-	--status-icon-size: 75%;
-	height: var(--status-icon-size); 
-	width: var(--status-icon-size);
-	margin-left: 33%;
-}
-
-.animatorTop-2Y7x2r.scale-3iLZhb.didRender-33z1u8 > .menu-3sdvDG.styleFixed-sX-yHV > .scroller-3BxosC.thin-1ybCId.scrollerBase-289Jih {
-	display: grid;
-	align-items: center;
-	grid-template-columns: auto auto auto auto;
-	visibility: visible;
-}
-
-.item-1tOPte.colorDefault-2K3EoJ:nth-of-type(7) {
-	grid-column: 1/5;
-}
-
-.animatorTop-2Y7x2r.scale-3iLZhb.didRender-33z1u8 {
-	transition: opacity 0.15s linear 0s;
-}
-
-.customText-tY5LJn {
-	font-size: 15px;
-}
-
-.item-1tOPte.colorDefault-2K3EoJ:nth-of-type(7) {
-	grid-column:5/5;
-	/*display:none;*/
-/*}
-
-.customEmoji-2_2FwB {
-	margin-left: 8px;
-	width: 20px;
-	height: 20px;
 }
 
 /* macOS Window Buttons - Makes the window buttons look like macOS, but on the right.*/
@@ -450,3 +329,112 @@ body {
 /*.expandedFolderBackground-1cujaW {
 	background-color: transparent;
 }
+
+/* Rounded square avatars and guilds - Makes avatars and servers rounded squares.*/
+/*@import url("https://raw.githubusercontent.com/hyblocker/pixelcord/v4/modules/appearance/icons/shapes/rounded.css");
+
+:root {
+	--guild-shape-normal:	url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 48 48' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='black' d='M5 0C2.23 0 0 2.23 0 5V43C0 45.77 2.23 48 5 48H43C45.77 48 48 45.77 48 43V5C48 2.23 45.77 0 43 0Z'/%3E%3C/svg%3E");
+	--guild-shape-hover:	url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 48 48' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='black' d='M5 0C2.23 0 0 2.23 0 5V43C0 45.77 2.23 48 5 48H43C45.77 48 48 45.77 48 43V5C48 2.23 45.77 0 43 0Z'/%3E%3C/svg%3E");
+	--avatar-shape:	url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 48 48' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='black' d='M5 0C2.23 0 0 2.23 0 5V43C0 45.77 2.23 48 5 48H43C45.77 48 48 45.77 48 43V5C48 2.23 45.77 0 43 0Z'/%3E%3C/svg%3E");
+}*/
+
+/* Green Replacer - Replaces the green accent with whatever colour you want.*/
+/*@import url("https://rawcdn.githack.com/akisblack/DiscordAddons/e9ef88f3d144d6c72e4a601eb81310afaad5d4db/Snippets/Green%20Replacer/index.css");
+
+:root {
+	--accent-secondary: #1b91ff;
+}*/
+
+/* Window Buttons In Toolbar - Moves the window buttons from the title bar to the chat toolbar.*/
+/*.platform-win .typeWindows-1za-n7 {
+	height: 9px;
+	margin-top: 0;
+	position: absolute;
+	top: 1px;
+	left: 0;
+	width: 100%;
+	background: 0 0
+}
+	
+.platform-win .winButtonClose-1HsbF- {
+	border-top-right-radius: var(--TB-tr-roundness)
+}
+
+.platform-win .winButton-iRh8-Z {
+	position: relative;
+	top: calc(var(--TB-position-top, 0px) - 1px);
+	right: var(--TB-position-right, 0);
+	height: var(--TB-height, 48px);
+	width: var(--TB-width, 32px)
+}
+
+.platform-win .container-1r6BKw {
+	padding-right: var(--TB-header-padding, 100px)
+}
+
+.platform-win .wordmarkWindows-1v0lYD {
+	display: none
+}
+
+.platform-win #app-mount.bd-detached-editor .winButton-iRh8-Z {
+	right: 30%
+}*/
+
+/* Mobile Home Icon - Makes the home icon look like the mobile one.*/
+/*.homeIcon-FuNwkv {
+	color: transparent;
+	-webkit-mask: var(--home-icon);
+	mask: var(--home-icon);
+	background: var(--interactive-normal);
+	width: 60%;
+	height: 60%;
+	margin-top: 2px;
+	--home-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:serif='http://www.serif.com/' width='100%25' height='100%25' viewBox='0 0 48 48' version='1.1' xml:space='preserve' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='ArtBoard1' x='0' y='0' width='48' height='48' style='fill:none;'/%3E%3Cg id='ArtBoard11' serif:id='ArtBoard1'%3E%3Cpath id='home' d='M13.688,43.053l0,-8l-5.867,0c-2.109,0 -3.821,-1.712 -3.821,-3.821l0,-22.464c0,-2.109 1.712,-3.821 3.821,-3.821l32.358,-0c2.109,-0 3.821,1.712 3.821,3.821l-0,22.464c-0,2.109 -1.712,3.821 -3.821,3.821l-18.491,0l-8,8Z'/%3E%3C/g%3E%3C/svg%3E") center no-repeat;
+}*/
+
+/* Compact Status Menu - Makes the status picker compact.*/
+/*.status-1fhblQ, .description-2L932D {
+	display: none;
+}
+
+#status-picker .separator-2I32lJ {
+	display: none;
+}
+
+.mask-1qbNWk.icon-1IxfJ2 {
+	--status-icon-size: 75%;
+	height: var(--status-icon-size); 
+	width: var(--status-icon-size);
+	margin-left: 33%;
+}
+
+.animatorTop-2Y7x2r.scale-3iLZhb.didRender-33z1u8 > .menu-3sdvDG.styleFixed-sX-yHV > .scroller-3BxosC.thin-1ybCId.scrollerBase-289Jih {
+	display: grid;
+	align-items: center;
+	grid-template-columns: auto auto auto auto;
+	visibility: visible;
+}
+
+.item-1tOPte.colorDefault-2K3EoJ:nth-of-type(7) {
+	grid-column: 1/5;
+}
+
+.animatorTop-2Y7x2r.scale-3iLZhb.didRender-33z1u8 {
+	transition: opacity 0.15s linear 0s;
+}
+
+.customText-tY5LJn {
+	font-size: 15px;
+}
+
+.item-1tOPte.colorDefault-2K3EoJ:nth-of-type(7) {
+	grid-column:5/5;
+	/*display:none;*/
+/*}
+
+.customEmoji-2_2FwB {
+	margin-left: 8px;
+	width: 20px;
+	height: 20px;
+}*/
