@@ -3,7 +3,7 @@
 */
 
 /* Original Case - Makes category and role names their original case.*/
-@import url("https://akisblack.tech/DiscordAddons/Snippets/Original%20Case/index.css");
+@import url("https://rawcdn.githack.com/akisblack/DiscordAddons/e9ef88f3d144d6c72e4a601eb81310afaad5d4db/Snippets/Original%20Case/index.css");
 
 /* Rounded square avatars and guilds - Makes avatars and servers rounded squares.*/
 /*@import url("https://raw.githubusercontent.com/hyblocker/pixelcord/v4/modules/appearance/icons/shapes/rounded.css");
@@ -15,7 +15,7 @@
 }*/
 
 /* Green Replacer - Replaces the green accent with whatever colour you want.*/
-/*@import url("https://akisblack.tech/DiscordAddons/Snippets/Green%20Replacer/index.css");
+/*@import url("https://rawcdn.githack.com/akisblack/DiscordAddons/e9ef88f3d144d6c72e4a601eb81310afaad5d4db/Snippets/Green%20Replacer/index.css");
 
 :root {
 	--accent-secondary: #1b91ff;
