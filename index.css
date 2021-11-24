@@ -26,9 +26,10 @@
 
 /* Reorder theme toggler - Reorder's theme toggler to be below the Themes section in Powercord settings.*/
 .side-8zPYf6 > div[data-item-id="pc-moduleManager-themes"],
-.side-8zPYf6 > div[data-item-id="pc-moduleManager-themes"] ~ div { order: 3 }
-.side-8zPYf6 > div[data-item-id="theme-toggler"] { order: 2 !important; }
+.side-8zPYf6 > div[data-item-id="pc-moduleManager-themes"] ~ div { order: 4 }
 .side-8zPYf6 > div[data-item-id="bdCompat"] { order: 1 !important; }
+.side-8zPYf6 > div[data-item-id="theme-toggler"] { order: 2 !important; }
+.side-8zPYf6 > div[data-item-id="css-toggler"] { order: 3 !important; }
 
 /* Coloured Window Buttons - Makes min/max window buttons coloured on hover.*/
 .titleBar-AC4pGV > *:nth-child(3):hover {
@@ -88,30 +89,6 @@ button[aria-label="Open sticker picker"], /* Hide sticker picker button */
 	background-color: var(--background-tertiary);
 	border-radius: 50%;
 }
-
-/* No Gaps In Settings - Settings menu with no gaps.*/
-.sidebarRegion-VFTUkN {
-	flex: 0;
-}
-
-.contentColumnDefault-1VQkGM {
-	margin: auto;
-}
-
-/* Original
-.sidebar-CFHs9e {
-	padding-top: 60px;
-	padding-bottom: 10px;
-	padding-left: 10px;
-}
-
-.sidebarRegion-VFTUkN {
-	flex: 0 0 auto;
-}
-
-.contentColumn-2hrIYH, .customColumn-Rb6toI {
-	max-width: unset;
-}*/
 
 /* No Preview On Folders - Disables the folder preview in folder icons.*/
 .closedFolderIconWrapper-2sTcE6 {
@@ -437,4 +414,28 @@ body {
 	margin-left: 8px;
 	width: 20px;
 	height: 20px;
+}*/
+
+/* No Gaps In Settings - Settings menu with no gaps.*/
+/*.sidebarRegion-VFTUkN {
+	flex: 0;
+}
+
+.contentColumnDefault-1VQkGM {
+	margin: auto;
+}
+
+/* Original
+.sidebar-CFHs9e {
+	padding-top: 60px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+.sidebarRegion-VFTUkN {
+	flex: 0 0 auto;
+}
+
+.contentColumn-2hrIYH, .customColumn-Rb6toI {
+	max-width: unset;
 }*/
