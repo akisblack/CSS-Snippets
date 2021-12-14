@@ -28,7 +28,7 @@
 
 /* Display None - Removes stuff that is useless to me.*/
 div[class^="akaBadge-"],  div[class^="nicknames-"], /* Remove AKA section on DM top bar */
-[aria-label*="Mute channel"], /*Remove mute toolbar button*/
+[aria-label*="Notification Settings"], /*Remove mute toolbar button*/
 .toolbar-1t6TWx a, /*Remove help button*/
 /*[aria-label*="Inbox"], /* Hide inbox button */
 button[aria-label="Send a gift"], /* Hide Nitro gift button */
