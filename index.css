@@ -1,5 +1,5 @@
 /*             
-*  Akis' Discord CSS snippet collection. (These snippets are NOT mine, they are from the Powercord/Black Box/BetterDiscord discord servers!)
+*  Akis' Discord CSS snippet collection.
 */
 
 /* Original Case - Makes category and role names their original case.*/
@@ -86,6 +86,18 @@ body {
 .wordmarkWindows-2dq6rw g {
 	transform: translateY(3px);
 }
+
+/*Minified search box - Makes the search box a normal toolbar icon.*/
+.search-1FM8Qc:not(.open-3y3yI_) .searchBar-zdmu7v {
+	width: 27px;
+	background-color: transparent;
+}
+
+.search-1FM8Qc:not(.open-3y3yI_) .searchBar-zdmu7v .icon-18rqoe {
+	transform: scale(1.4);
+	color: var(--interactive-normal) !important;
+}
+
 
 /* [Use the Better Settings toggle instead] Plugin Settings Header - Adds a Plugin Settings Header before the plugin settings tabs on Powercord.*/
 /*.item-3XjbnG[data-item-id=pc-updater] {
