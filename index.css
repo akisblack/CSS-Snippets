@@ -27,7 +27,6 @@
 }
 
 /* Display None - Removes stuff that is useless to me.*/
-div[class^="akaBadge-"],  div[class^="nicknames-"], /* Remove AKA section on DM top bar */
 [aria-label*="Notification Settings"], /*Remove mute toolbar button*/
 .toolbar-3_r2xA a, /*Remove help button*/
 /*[aria-label*="Inbox"], /* Hide inbox button */
@@ -35,7 +34,7 @@ button[aria-label="Send a gift"], /* Hide Nitro gift button */
 button[aria-label="Open GIF picker"], /* Hide GIF picker button */
 button[aria-label="Open sticker picker"], /* Hide sticker picker button */
 .iconWrapper-2awDjA[aria-label="Hide Member List"], [aria-label="Show Member List"], /*Remove member list button*/
-.channel-1Shao0[href="/store"], /*remove nitro button in home*/
+.channel-1Shao0 [href="/store"], /*remove nitro button in home*/
 .statusItem-2hiCNB > .description-3Cwkxk /*remove status picker descriptions*/ { 
 	display: none;
 }
@@ -55,11 +54,11 @@ button[aria-label="Open sticker picker"], /* Hide sticker picker button */
 
 /* Remove Rebrand - Removes the things that I don't like in the rebrand.*/
 /*Nitro tab settings*/
-.premiumLabel-V52REm svg {
+.selectedIcon-2zSuOP {
 	display: none;
 }
 
-.selectedBackground-1qyzak {
+.selectedBackground-1t6xXq {
 	background-color: var(--background-modifier-selected);
 }
 
@@ -88,12 +87,12 @@ body {
 }
 
 /*Minified search box - Makes the search box a normal toolbar icon.*/
-.search-1FM8Qc:not(.open-3y3yI_) .searchBar-zdmu7v {
+.search-2Mwzzq:not(.open-1F8u2c) .searchBar-jGtisZ {
 	width: 27px;
 	background-color: transparent;
 }
 
-.search-1FM8Qc:not(.open-3y3yI_) .searchBar-zdmu7v .icon-18rqoe {
+.search-2Mwzzq:not(.open-1F8u2c) .searchBar-jGtisZ .icon-18rqoe {
 	transform: scale(1.4);
 	color: var(--interactive-normal) !important;
 }
