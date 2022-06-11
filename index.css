@@ -5,7 +5,7 @@
 /* Display None - Removes stuff that is useless to me.*/
 [aria-label*="Notification Settings"], /*Remove mute toolbar button*/
 .toolbar-3_r2xA a, /*Remove help button*/
-button[aria-label="Send a gift or Boost this server"], /* Hide Nitro gift button */
+button[aria-label="Send a gift"], /* Hide Nitro gift button */
 button[aria-label="Open GIF picker"], /* Hide GIF picker button */
 button[aria-label="Open sticker picker"], /* Hide sticker picker button */
 .iconWrapper-2awDjA[aria-label="Hide Member List"], [aria-label="Show Member List"], /*Remove member list button*/
